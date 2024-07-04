@@ -1,0 +1,23 @@
+{
+  "name": "grafthql-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
